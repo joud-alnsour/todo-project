@@ -5,28 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDo</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <style>
 table, th, td {
-    border:1px solid black;
+    border: 3px solid black;
     border-collapse: collapse;
+    
+  width: 50%
   }
+
+  a{
+      color: black;
+  }
+  body {
+  background-image: url("imgs/background.jpg");
+  background-repeat: no-repeat;
+  background-position:  center;
+  background-attachment: fixed;
+  background-size: cover;
+}
   </style>
 <body>
     <header>
-        <nav>
+        <nav style="float: right;">
             
             <a href="about.html">next page</a>
         </nav>
         <br><br>
-        <h1>ToDO</h1>
-        <div id="logo">
+        
+        <div id="logoBox">
             <img src="imgs/Logo.png" alt="logo">
         </div>
+    
     </header>
         
      <main>  
          <br><br>
+
+         <h1 style="text-align: center;">ToDO List</h1>
+         <br><br><br><br><br><br>
+         
 <table style="width:100%">
   <tr>
     <th>Tasks</th>
@@ -48,18 +67,17 @@ table, th, td {
     <td>  <input type="checkbox" id="read" name="read" value="book"></td>
     
   </tr>
-  
+    
+    
+  <br><br>
 </table>
+<br><br><br><br><br><br><br><br><br><br><br><br>
 </main> 
 <footer>
     <br><br>
-    <div id="logo">
-        <img src="imgs/Logo.png" alt="logo">
-    </div>
-    <div>
-        <p> © 2022. All Rights Reserved</p>
-    </div>
+        <h3 style="text-align: center;"> © 2022. All Rights Reserved </h3>
+  
 </footer>
-    </h1>
+   
 </body>
 </html>
