@@ -10,12 +10,6 @@ if (age <= 0) {
 }
 var welcome = window.prompt("if you wants to skip the welcoming message write yes");
 
-var Hi = window.prompt("do you read a book in the week ?");
-
-var Person = window.prompt("do you have a job ?");
-
-
-var People = window.prompt("do you love animals ?");
 
 if (welcome != 'yes')
  { if(gender!='male'&&gender!='female')
