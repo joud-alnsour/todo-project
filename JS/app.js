@@ -26,25 +26,24 @@ if (welcome != 'yes')
 
 }
 
-function task (ask)
-{
-let reply =[];
-for (let index = 0;index < ask.length; index++)
-{
-    let firstreply =prompt(ask[index]).toLowerCase();
-    if (firstreply ==='')
-    {
-        reply.push('invalid');}
-        else if(firstreply === 'yes' || firstreply === 'no')
-        {
-          reply.push(firstreply);
-        }
-        else{
-          alert('invalid');
-        }
-    }
-        console.log(reply);
-        return reply;
+ 
+var task1= prompt('do you read a book in the week ?');
+console.log(`${task1}`);
+
+if (task1.length === 0) {
+  task1=== "invalid"
 }
 
-task (['do you read a book in the week ?','do you have a job ?','do you love animals ?']);
+var task2= prompt('do you have a job ?');
+console.log(`${task2}`);
+
+if (task2.length === 0) {
+  task2 === "invalid"
+}
+
+var task3= prompt('do you love animals ?');
+console.log(` ${task3}`);
+
+if (task3.length === 0) {
+  task3 === "invalid"
+}
